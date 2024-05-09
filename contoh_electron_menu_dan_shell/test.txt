@@ -1,0 +1,1 @@
+isi file text.txt yang kemungkinan dibuka via menu Electron.
