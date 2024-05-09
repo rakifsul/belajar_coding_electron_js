@@ -1,0 +1,14 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "devDependencies": {
+        "electron": "^27.1.0"
+    }
+}

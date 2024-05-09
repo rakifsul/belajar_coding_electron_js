@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebView Tag Example</title>
+
+  <style>
+    #wv-main {
+      position: absolute;
+      width: 50%;
+      top: 0px;
+      bottom: 0px;
+    }
+
+    #control {
+      position: absolute;
+      width: 50%;
+      left: 52%;
+      top: 0px;
+      bottom: 0px;
+      overflow-y: scroll;
+    }
+
+    #control input {
+      left: 50%;
+      width: 95%;
+    }
+
+    #control textarea {
+      left: 50%;
+      width: 95%;
+    }
+  </style>
+</head>
+
+<body>
+  <webview id="wv-main" src="https://github.com"></webview>
+  <div id="control">
+    <h1>Control</h1>
+    <label for="url">URL</label>
+    <br>
+    <input type="text" id="url" value="https://www.google.com" placeholder="Masukkan URL di sini!" />
+    <br>
+    <button id="load-url">Load URL</button>
+    <button id="go-back">Go Back</button>
+    <button id="go-forward">Go Forward</button>
+    <button id="stop">Stop</button>
+    <button id="reload">Reload</button>
+    <button id="open-dev-tools">Open Dev Tools</button>
+
+    <p></p>
+
+    <label for="script">Script</label>
+    <br>
+    <textarea id="script" rows="10" cols="50">window.open("https://www.google.com/search?q=site%3Asfrfrlnc.com","_self");0</textarea>
+    <br>
+    <button id="inject-script">Inject</button>
+  </div>
+  <script>
+    // mengambil element untuk nantinya meng-handle event.
+    const wvMain = document.getElementById("wv-main");
+    const btnLoadUrl = document.getElementById("load-url");
+    const btnGoBack = document.getElementById("go-back");
+    const btnGoForward = document.getElementById("go-forward");
+    const btnStop = document.getElementById("stop");
+    const btnReload = document.getElementById("reload");
+    const btnOpenDevTools = document.getElementById("open-dev-tools");
+    const btnInjectScript = document.getElementById("inject-script");
+    const txaScript = document.getElementById("script").value;
+
+    // saat tombol Load URL diklik
+    btnLoadUrl.onclick = function() {
+      const url = document.getElementById("url").value;
+      wvMain.loadURL(url);
+    }
+
+    // saat tombol Go Back diklik
+    btnGoBack.onclick = function() {
+      wvMain.goBack();
+    }
+
+    // saat tombol Go Forward diklik
+    btnGoForward.onclick = function() {
+      wvMain.goForward();
+    }
+
+    // saat tombol Stop diklik
+    btnStop.onclick = function() {
+      wvMain.stop();
+    }
+
+    // saat tombol Reload diklik
+    btnReload.onclick = function() {
+      wvMain.reload();
+    }
+
+    // saat tombol Open Dev Tools (inspect element) diklik
+    btnOpenDevTools.onclick = function() {
+      wvMain.openDevTools();
+    }
+
+    // saat tombol Inject diklik
+    btnInjectScript.onclick = function() {
+      wvMain.executeJavaScript(txaScript);
+    }
+  </script>
+</body>
+
+</html>
