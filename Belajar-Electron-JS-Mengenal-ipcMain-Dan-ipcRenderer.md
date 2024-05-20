@@ -20,19 +20,32 @@ Dalam Electron.js, ipcMain dan ipcRenderer adalah dua modul yang digunakan untuk
 
 Berikut adalah penjelasan tentang keduanya:
 
-ipcMain:
+### ipcMain
+
 Komunikasi dari Proses Utama: ipcMain adalah modul yang digunakan dalam proses utama (main process) untuk menerima dan menanggapi pesan dari proses renderer (renderer process).
+
 Menerima Pesan: Dengan ipcMain.on(), proses utama dapat mendaftarkan penerimaan pesan dari proses renderer dengan menentukan nama pesan atau channel yang diinginkan.
+
 Menanggapi Pesan: Setelah menerima pesan, proses utama dapat menanggapi pesan tersebut dengan mengirimkan balasan menggunakan event.reply() dengan channel yang sesuai.
+
 Pemrosesan Pesan: Pesan yang diterima oleh ipcMain dapat diproses di dalam fungsi yang ditetapkan dalam ipcMain.on(), yang memungkinkan proses utama untuk melakukan berbagai tindakan berdasarkan pesan yang diterima.
-ipcRenderer:
+
+### ipcRenderer
+
 Komunikasi dari Proses Renderer: ipcRenderer adalah modul yang digunakan dalam proses renderer (renderer process) untuk mengirim pesan ke proses utama (main process) dan menerima balasan.
+
 Mengirim Pesan: Dengan ipcRenderer.send(), proses renderer dapat mengirimkan pesan ke proses utama dengan menentukan nama pesan atau channel yang diinginkan bersama dengan data yang ingin dikirim.
+
 Menerima Balasan: Setelah mengirim pesan, proses renderer dapat menunggu balasan dari proses utama dengan menggunakan ipcRenderer.on() untuk mendaftarkan penerimaan balasan dengan channel yang sesuai.
+
 Pemrosesan Balasan: Balasan yang diterima oleh ipcRenderer dapat diproses di dalam fungsi yang ditetapkan dalam ipcRenderer.on(), yang memungkinkan proses renderer untuk menanggapi atau melakukan tindakan berdasarkan balasan yang diterima.
-Peran dan Fungsi Utama:
+
+### Peran dan Fungsi Utama ipcMain Dan ipcRenderer
+
 Pemisahan Tugas: ipcMain digunakan untuk menerima dan menanggapi pesan di proses utama, sementara ipcRenderer digunakan untuk mengirim pesan dari proses renderer dan menerima balasan.
+
 Komunikasi Antar-Proses: Kombinasi dari kedua modul ini memungkinkan untuk komunikasi antara proses utama dan renderer, yang penting untuk berbagai interaksi dan sinkronisasi dalam aplikasi Electron.js.
+
 ipcMain dan ipcRenderer adalah modul penting dalam Electron.js yang memungkinkan komunikasi antara proses utama dan proses renderer.
 
 Mereka memungkinkan untuk pertukaran pesan antara kedua proses, yang sangat penting dalam pengembangan aplikasi Electron.js yang kompleks dan interaktif.
