@@ -1,11 +1,26 @@
-# contoh_coding_electron
+# Belajar Coding Electron JS
 
-Ini adalah kumpulan contoh coding Electron atau Electron js untuk artikel coding saya di:
+Ini adalah kumpulan contoh coding Electron atau Electron js.
 
-https://www.rakifsul.my.id/tags/coding-electron/
+Saya sangat berharap bahwa Anda tidak hanya membaca kodenya, tapi juga membaca artikelnya.
 
-Saya sangat berharap bahwa Anda tidak hanya membaca kodenya, tapi juga membaca artikel di link tersebut.
+Berikut ini adalah daftar artikelnya:
 
-Nama project atau foldernya mungkin berbeda dengan di versi artikel.
+-   [Belajar Electron JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Cara-Membuat-Project.md)
+-   [Belajar Electron JS Pembahasan tentang BrowserWindow](<javascript:void(0);>)
+-   [Belajar Electron Pembahasan tentang loadURL](<javascript:void(0);>)
+-   [Belajar Electron Cara Menggunakan jQuery](<javascript:void(0);>)
+-   [Belajar Electron Memahami Perilaku console.log](<javascript:void(0);>)
+-   [Belajar Electron Mengenal ipcMain dan ipcRenderer](<javascript:void(0);>)
+-   [Belajar Electron Mengenal Message Box](<javascript:void(0);>)
+-   [Belajar Electron Mengenal Open Dialog](<javascript:void(0);>)
+-   [Belajar Electron Mengenal Save Dialog](<javascript:void(0);>)
+-   [Belajar Electron Pembahasan Menu dan Shell](<javascript:void(0);>)
+-   [Belajar Electron Mengenal Tray](<javascript:void(0);>)
+-   [Belajar Electron Pembahasan tentang webview Tag](<javascript:void(0);>)
+-   [](<javascript:void(0);>)
+-   [](<javascript:void(0);>)
+-   [](<javascript:void(0);>)
+-   [](<javascript:void(0);>)
 
-Project-project ini mungkin ada perbedaan dengan versi artikelnya.
+Selamat menikmati.
