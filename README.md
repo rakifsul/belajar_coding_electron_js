@@ -8,7 +8,7 @@ Berikut ini adalah daftar artikelnya:
 
 -   [Belajar Electron JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Cara-Membuat-Project.md)
 -   [Belajar Electron JS Pembahasan Tentang BrowserWindow](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Pembahasan-Tentang-BrowserWindow.md)
--   [Belajar Electron JS Pembahasan Tentang loadURL](<javascript:void(0);>)
+-   [Belajar Electron JS Pembahasan Tentang loadURL](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Pembahasan-Tentang-loadURL.md)
 -   [Belajar Electron JS Cara Menggunakan jQuery](<javascript:void(0);>)
 -   [Belajar Electron JS Memahami Perilaku console.log](<javascript:void(0);>)
 -   [Belajar Electron JS Mengenal ipcMain dan ipcRenderer](<javascript:void(0);>)
