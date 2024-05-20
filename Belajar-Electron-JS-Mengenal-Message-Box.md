@@ -46,16 +46,16 @@ Dengan kemampuan kustomisasi, kemudahan integrasi, dan kompatibilitas lintas-pla
 
 Tujuan dari tutorial ini adalah:
 
-Pembaca mengenal beragam jenis Message Box di Electron.
-Pembaca dapat menggunakan Message Box di Electron.
+-   Pembaca mengenal beragam jenis Message Box di Electron.
+-   Pembaca dapat menggunakan Message Box di Electron.
 
 ## Prasyarat
 
 Prasyarat dari tutorial ini adalah:
 
-Menggunakan sistem operasi Windows 10 ke atas.
-Telah meng-install Node.js dan NPM dan mampu menjalankannya dari folder manapun.
-Telah membaca dan memahami cara pembuatan project Electron.
+-   Menggunakan sistem operasi Windows 10 ke atas.
+-   Telah meng-install Node.js dan NPM dan mampu menjalankannya dari folder manapun.
+-   Telah membaca dan memahami cara pembuatan project Electron.
 
 ## Langkah-Langkah
 
