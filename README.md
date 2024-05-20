@@ -18,9 +18,5 @@ Berikut ini adalah daftar artikelnya:
 -   [Belajar Electron Pembahasan Menu dan Shell](<javascript:void(0);>)
 -   [Belajar Electron Mengenal Tray](<javascript:void(0);>)
 -   [Belajar Electron Pembahasan tentang webview Tag](<javascript:void(0);>)
--   [](<javascript:void(0);>)
--   [](<javascript:void(0);>)
--   [](<javascript:void(0);>)
--   [](<javascript:void(0);>)
 
 Selamat menikmati.
