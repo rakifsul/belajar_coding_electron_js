@@ -1,3 +1,7 @@
+## Source Code Project Ini
+
+https://github.com/rakifsul/belajar_coding_electron_js/tree/main/contoh_electron_create
+
 ## Pendahuluan
 
 Electron atau Electron js adalah sebuah framework aplikasi desktop yang menggunakan bahasa JavaScript.
