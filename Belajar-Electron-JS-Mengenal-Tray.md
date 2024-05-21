@@ -34,73 +34,102 @@ Salah satu konsep kunci dalam pengembangan aplikasi desktop dengan Electron.js a
 
 Dalam bagian ini, kita akan membahas konsep Tray dalam Electron.js tanpa menggunakan kode, dengan fokus pada pemahaman konsep, implementasi, dan manfaat yang ditawarkan oleh Tray.
 
-Pengertian Konsep Tray:
-Tray adalah sebuah konsep yang digunakan dalam pengembangan aplikasi desktop untuk menyajikan ikon atau notifikasi di area tray atau systray pada sistem operasi. Area tray adalah bagian kecil yang biasanya terletak di bilah tugas atau menu bar pada sistem operasi, yang menyediakan akses cepat dan notifikasi terhadap aplikasi yang berjalan di latar belakang. Dalam Electron.js, Tray memungkinkan pengembang untuk menyematkan ikon aplikasi ke area tray dan memberikan fungsionalitas tertentu seperti menu kontekstual dan notifikasi.
+### Pengertian Konsep Tray
 
-Fungsionalitas Utama Tray:
-Menyematkan Ikon Aplikasi:
+Tray adalah sebuah konsep yang digunakan dalam pengembangan aplikasi desktop untuk menyajikan ikon atau notifikasi di area tray atau systray pada sistem operasi.
+
+Area tray adalah bagian kecil yang biasanya terletak di bilah tugas atau menu bar pada sistem operasi, yang menyediakan akses cepat dan notifikasi terhadap aplikasi yang berjalan di latar belakang.
+
+Dalam Electron.js, Tray memungkinkan pengembang untuk menyematkan ikon aplikasi ke area tray dan memberikan fungsionalitas tertentu seperti menu kontekstual dan notifikasi.
+
+### Fungsionalitas Utama Tray
+
+#### Menyematkan Ikon Aplikasi
 
 Fungsi utama dari Tray adalah menyematkan ikon aplikasi ke area tray. Ikon ini biasanya merepresentasikan aplikasi dan memberikan akses cepat ke fungsionalitas atau informasi tertentu.
-Menu Kontekstual:
+
+#### Menu Kontekstual
 
 Tray memungkinkan pengembang untuk menyediakan menu kontekstual yang muncul saat pengguna mengklik ikon di area tray. Menu ini dapat berisi opsi dan perintah yang berhubungan dengan aplikasi.
-Notifikasi:
+
+#### Notifikasi
 
 Tray dapat digunakan untuk memberikan notifikasi kepada pengguna. Notifikasi ini dapat berupa pemberitahuan visual atau suara yang memberi tahu pengguna tentang peristiwa atau status tertentu.
-Interaksi Pengguna:
+
+#### Interaksi Pengguna
 
 Tray menyediakan cara bagi pengguna untuk berinteraksi dengan aplikasi tanpa harus membuka jendela utama. Ini membantu dalam memberikan akses cepat dan penggunaan yang efisien.
-Status Aplikasi:
+
+#### Status Aplikasi
 
 Tray dapat mencerminkan status atau kondisi aplikasi. Ikon atau warna di area tray dapat berubah untuk memberi tahu pengguna tentang kondisi tertentu, seperti penerimaan pesan baru atau koneksi yang sedang aktif.
-Implementasi Tray dalam Electron.js:
-Pendefinisian Tray:
+
+### Implementasi Tray dalam Electron.js
+
+#### Pendefinisian Tray
 
 Untuk menggunakan Tray dalam Electron.js, pengembang perlu membuat instance dari kelas Tray. Ini melibatkan menyediakan path untuk ikon yang akan digunakan dalam tray.
-Menyematkan Ikon:
+
+#### Menyematkan Ikon
 
 Setelah Tray didefinisikan, ikon aplikasi dapat disematkan ke area tray dengan menggunakan metode setToolTip dan setContextMenu untuk menyematkan tooltip dan menu kontekstual.
-Menambahkan Notifikasi:
+
+#### Menambahkan Notifikasi
 
 Tray juga dapat digunakan untuk menambahkan notifikasi yang akan muncul ketika pengguna mengklik atau berinteraksi dengan ikon tray.
-Menanggapi Klik Tray:
+
+#### Menanggapi Klik Tray
 
 Pengembang dapat menanggapi klik pada ikon tray dengan menentukan fungsi yang akan dijalankan saat ikon di area tray diklik.
-Mengelola Siklus Hidup Aplikasi:
+
+#### Mengelola Siklus Hidup Aplikasi
 
 Pengembang perlu memastikan bahwa Tray diinisialisasi dan dihapus sesuai dengan siklus hidup aplikasi. Tray biasanya dihapus ketika aplikasi ditutup.
-Contoh Penggunaan Tray:
-Notifikasi Pesan Baru:
+
+### Contoh Penggunaan Tray
+
+#### Notifikasi Pesan Baru
 
 Tray dapat digunakan untuk memberikan notifikasi kepada pengguna saat pesan baru diterima dalam aplikasi pesan instan. Ikon tray dapat berkedip atau berubah warna untuk menarik perhatian.
-Pemantauan Koneksi:
+
+#### Pemantauan Koneksi
 
 Jika aplikasi bergantung pada koneksi jaringan, Tray dapat menampilkan status koneksi saat ini. Ikon yang berubah warna atau tooltip yang memberikan informasi tentang koneksi dapat membantu pengguna.
-Pemberitahuan Tugas Latar Belakang:
+
+#### Pemberitahuan Tugas Latar Belakang
 
 Jika aplikasi memiliki tugas latar belakang, Tray dapat memberikan notifikasi ketika tugas selesai atau ada peristiwa penting.
-Pengelolaan Aplikasi:
+
+#### Pengelolaan Aplikasi
 
 Tray dapat menyediakan opsi untuk mengelola aplikasi, seperti membuka atau menutup jendela utama, membuka pengaturan, atau mematikan aplikasi.
-Monitoring Status Aplikasi:
+
+#### Monitoring Status Aplikasi
 
 Tray dapat mencerminkan status aplikasi, seperti apakah aplikasi sedang aktif, dalam mode istirahat, atau dalam mode tersembunyi.
-Manfaat Penggunaan Tray:
-Akses Cepat:
+
+### Manfaat Penggunaan Tray
+
+#### Akses Cepat
 
 Tray memberikan akses cepat ke fungsionalitas aplikasi tanpa perlu membuka jendela utama. Ini meningkatkan efisiensi penggunaan aplikasi.
-Notifikasi Tanpa Mengganggu:
+
+#### Notifikasi Tanpa Mengganggu
 
 Tray memungkinkan pengguna untuk menerima notifikasi tanpa mengganggu pekerjaan yang sedang dilakukan. Notifikasi dapat muncul sebagai tooltip atau pemberitahuan kecil.
-Interaksi Minimal:
+
+#### Interaksi Minimal
 
 Pengguna dapat berinteraksi dengan aplikasi dengan menggunakan sedikit interaksi pengguna melalui klik kanan pada ikon tray atau menggunakan menu kontekstual.
-Monitoring Aktivitas Latar Belakang:
+
+#### Monitoring Aktivitas Latar Belakang
 
 Tray dapat membantu pengguna memonitor aktivitas latar belakang aplikasi dan memberikan pemberitahuan saat peristiwa penting terjadi.
-Pemeliharaan Notifikasi:
+
+#### Pemeliharaan Notifikasi
 
 Dengan Tray, notifikasi dapat dikelola secara terpusat dan tidak perlu mengganggu pengalaman pengguna dengan jendela pemberitahuan terpisah.
+
 Konsep Tray dalam Electron.js memberikan kemungkinan untuk meningkatkan interaksi pengguna dengan aplikasi desktop.
 
 Dengan menyediakan akses cepat, notifikasi yang tidak mengganggu, dan interaksi minimal, Tray memainkan peran penting dalam membuat aplikasi desktop yang responsif dan efisien.
