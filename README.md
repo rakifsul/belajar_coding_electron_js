@@ -15,7 +15,7 @@ Berikut ini adalah daftar artikelnya:
 -   [Belajar Electron JS Mengenal Message Box](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Mengenal-Message-Box.md)
 -   [Belajar Electron JS Mengenal Open Dialog](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Mengenal-Open-Dialog.md)
 -   [Belajar Electron JS Mengenal Save Dialog](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Mengenal-Save-Dialog.md)
--   [Belajar Electron JS Pembahasan Menu Dan Shell](#)
+-   [Belajar Electron JS Pembahasan Menu Dan Shell](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Pembahasan-Menu-Dan-Shell.md)
 -   [Belajar Electron JS Mengenal Tray](#)
 -   [Belajar Electron JS Pembahasan Tentang webview Tag](#)
 
