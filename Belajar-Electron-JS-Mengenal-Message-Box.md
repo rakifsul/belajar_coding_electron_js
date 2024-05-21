@@ -61,7 +61,7 @@ Prasyarat dari tutorial ini adalah:
 
 Pertama, buatlah project Electron dengan nama "contoh_electron_message_box".
 
-Anda bisa membuatnya dengan cara yang telah dijelaskan di tutorial yang sebelumnya.
+Anda bisa membuatnya dengan cara yang telah dijelaskan di "[Belajar Electron JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Cara-Membuat-Project.md)".
 
 Selanjutnya, buka file "index.js" dan isi dengan kode ini:
 

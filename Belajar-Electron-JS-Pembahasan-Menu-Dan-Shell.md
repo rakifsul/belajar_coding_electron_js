@@ -43,7 +43,7 @@ Prasyarat dari tutorial ini adalah:
 
 Pertama, buatlah sebuah project Electron dengan nama "contoh_electron_menu_dan_shell".
 
-Anda bisa membuatnya dengan cara yang dijelaskan pada tutorial sebelumnya.
+Anda bisa membuatnya dengan cara yang dijelaskan pada "[Belajar Electron JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Cara-Membuat-Project.md)".
 
 Jika Anda telah mengikuti tutorial tersebut, pasti ada file bernama "index.js" di dalam folder project Anda.
 

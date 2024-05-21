@@ -63,7 +63,7 @@ Prasyarat dari tutorial ini adalah:
 
 ## Langkah-Langkah
 
-Untuk membuat BrowserWindow di tutorial ini, caranya sama dengan yang ini.
+Untuk membuat BrowserWindow di tutorial ini, caranya sama dengan yang "[Belajar Electron JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Cara-Membuat-Project.md)".
 
 Di sini lebih dominan ke pembahasan BrowserWindow.
 

@@ -51,7 +51,7 @@ Prasyarat dari tutorial ini adalah:
 
 Pertama, buat project Electron baru bernama "contoh_electron_perilaku_console_log".
 
-Anda bisa gunakan project Electron yang telah Anda buat di bagian ini.
+Anda bisa gunakan project Electron yang telah Anda buat di "[Belajar Electron JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Cara-Membuat-Project.md)".
 
 Sekarang, buka file "index.js", kemudian isi dengan kode ini:
 

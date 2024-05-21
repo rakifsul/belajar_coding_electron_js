@@ -75,7 +75,7 @@ Pertama, buatlah project Electron baru bernama "contoh_electron_ipcmain_dan_ipcr
 
 Sebenarnya, namanya bebas, tapi lebih baik ikuti saya.
 
-Di tutorial cara pembuatan project Electron sebelumnya, Anda telah memiliki file "index.js".
+Di tutorial "[Belajar Electron JS Cara Membuat Project](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Cara-Membuat-Project.md)" sebelumnya, Anda telah memiliki file "index.js".
 
 Kita akan menggunakan file tersebut dan menambah beberapa file tambahan.
 
