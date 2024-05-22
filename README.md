@@ -25,6 +25,6 @@ Berikut ini adalah daftar artikelnya:
 -   [Belajar Electron JS Mengenal Tray](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Mengenal-Tray.md)
 -   [Belajar Electron JS Pembahasan Tentang webview Tag](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Pembahasan-Tentang-webview-Tag.md)
 
-Akhir kata, saya meminta kepada Anda untuk mengunjungi link saya di profile, mengeksplorasinya, dan lebih baik lagi jika Anda mentraktir saya melalui link tersebut.
+Akhir kata, saya meminta kepada Anda untuk mengunjungi link saya ( https://taplink.cc/rakifsul ), mengeksplorasinya, dan lebih baik lagi jika Anda mentraktir saya melalui link tersebut.
 
 Selamat menikmati.
