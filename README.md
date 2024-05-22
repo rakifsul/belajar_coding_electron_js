@@ -1,6 +1,12 @@
 # Belajar Coding Electron JS
 
-Ini adalah kumpulan contoh coding Electron atau Electron js.
+Ini adalah kumpulan contoh coding Electron atau Electron JS.
+
+Electron JS adalah framework JavaScript yang memungkinkan penggunanya untuk membuat aplikasi desktop dengan HTML, CSS, dan JavaScript.
+
+Walaupun framework ini terkadang membutuhkan resource yang cukup besar, namun, menurut saya jika aplikasi yang dibangun juga cukup besar, maka itu masih wajar.
+
+Jika Anda ingin membangun aplikasi desktop yang kecil, mungkin framework ini tidak terlalu cocok. Jadi Anda bisa pertimbangkan Python 3 atau bahkan C++.
 
 Saya sangat berharap bahwa Anda tidak hanya membaca kodenya, tapi juga membaca artikelnya.
 
@@ -18,5 +24,7 @@ Berikut ini adalah daftar artikelnya:
 -   [Belajar Electron JS Pembahasan Menu Dan Shell](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Pembahasan-Menu-Dan-Shell.md)
 -   [Belajar Electron JS Mengenal Tray](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Mengenal-Tray.md)
 -   [Belajar Electron JS Pembahasan Tentang webview Tag](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Pembahasan-Tentang-webview-Tag.md)
+
+Akhir kata, saya meminta kepada Anda untuk mengunjungi link saya di profile, mengeksplorasinya, dan lebih baik lagi jika Anda mentraktir saya melalui link tersebut.
 
 Selamat menikmati.
