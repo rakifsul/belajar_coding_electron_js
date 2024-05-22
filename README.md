@@ -1,6 +1,6 @@
 # Belajar Coding Electron JS
 
-Ini adalah kumpulan contoh coding Electron atau Electron JS.
+Ini adalah kumpulan artikel coding Electron atau Electron JS.
 
 Electron JS adalah framework JavaScript yang memungkinkan penggunanya untuk membuat aplikasi desktop dengan HTML, CSS, dan JavaScript.
 
