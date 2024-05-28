@@ -27,10 +27,10 @@ Berikut ini adalah daftar artikelnya:
 
 Artikel ini gratis.
 
-Jika Anda ingin traktir saya, kunjungi link saya:
+Jika Anda ingin mentraktir saya, kunjungi link saya:
 
 https://taplink.cc/rakifsul
 
-Di sana ada link untuk traktirnya dan link lainnya.
+Di sana ada link untuk mentraktir saya dan link lainnya.
 
 Selamat menikmati.
