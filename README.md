@@ -1,5 +1,7 @@
 # Belajar Coding Electron JS
 
+## Pendahuluan
+
 Ini adalah kumpulan artikel coding Electron atau Electron JS.
 
 Electron JS adalah framework JavaScript yang memungkinkan penggunanya untuk membuat aplikasi desktop dengan HTML, CSS, dan JavaScript.
@@ -9,6 +11,8 @@ Walaupun framework ini terkadang membutuhkan resource yang cukup besar, namun, m
 Jika Anda ingin membangun aplikasi desktop yang kecil, mungkin framework ini tidak terlalu cocok. Jadi Anda bisa pertimbangkan Python 3 atau bahkan C++.
 
 Saya sangat berharap bahwa Anda tidak hanya membaca kodenya, tapi juga membaca artikelnya.
+
+## Isi Artikel
 
 Berikut ini adalah daftar artikelnya:
 
@@ -25,12 +29,16 @@ Berikut ini adalah daftar artikelnya:
 -   [Belajar Electron JS Mengenal Tray](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Mengenal-Tray.md)
 -   [Belajar Electron JS Pembahasan Tentang webview Tag](https://github.com/rakifsul/belajar_coding_electron_js/blob/main/Belajar-Electron-JS-Pembahasan-Tentang-webview-Tag.md)
 
-Artikel ini gratis.
+## Link Penting
 
-Jika Anda ingin mentraktir saya, kunjungi link saya:
+Kunjungi juga link saya.
 
-https://taplink.cc/rakifsul
+Link untuk traktir atau beli produk saya:
 
-Di sana ada link untuk mentraktir saya dan link lainnya.
+- https://karyakarsa.com/rakifsul
+
+Link selengkapnya:
+
+- https://taplink.cc/rakifsul
 
 Selamat menikmati.
