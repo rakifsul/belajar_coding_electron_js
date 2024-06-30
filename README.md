@@ -31,4 +31,4 @@ Berikut ini adalah daftar artikelnya:
 
 ## Link untuk Traktir
 
-- https://karyakarsa.com/rakifsul
+- https://karyakarsa.com/rakifsul/info
